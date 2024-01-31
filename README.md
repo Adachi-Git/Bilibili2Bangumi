@@ -1,8 +1,6 @@
 # Bilibili2Bangumi
 
-这是一个将用户在Bilibili的动画收藏迁移到Bangumi的工具。
-
-它使用Bilibili和Bangumi的API来比较和同步用户的动画收藏。
+这是一个将用户在 Bilibili 的动画收藏迁移到 Bangumi 的工具，它使用 API 来获取和同步用户的动画收藏。
 
 ## 依赖安装
 
@@ -31,9 +29,15 @@ python MainScript.py
 
 ## 特性
 
-- 获取用户 Bilibili 和 Bangumi 的动画收藏。
+- 获取用户 Bilibili 和 Bangumi 的动画收藏
 - 过滤掉 Bangumi 已收藏的条目
-- 支持并发请求，提高迁移速度。
+- 支持并发请求，提高迁移速度
+
+## TODO
+
+- [ ] 跳转Web获取用户 Token
+- [ ] 运行时询问用户是否从 [bangumi/Archive](https://github.com/bangumi/Archive) 获取最新的 bangumi wiki 数据
+- [ ] 从 bilibili 到 bangumi 的双向同步
 
 ## 注意事项
 
