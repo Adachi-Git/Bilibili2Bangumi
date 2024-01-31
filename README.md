@@ -4,6 +4,10 @@
 
 它使用Bilibili和Bangumi的API来比较和同步用户的动画收藏。
 
+## 依赖安装
+
+```pip install -r requirements.txt```
+
 ## 使用方法
 
 ```python MainScript.py```
@@ -19,8 +23,8 @@
 
 ## 特性
 
-- 获取Bilibili和Bangumi用户的动画收藏。
-- 过滤掉Bangumi已收藏的条目
+- 获取用户 Bilibili 和 Bangumi 的动画收藏。
+- 过滤掉 Bangumi 已收藏的条目
 - 支持并发请求，提高迁移速度。
 
 ## 注意事项
