@@ -6,11 +6,19 @@
 
 ## 依赖安装
 
-```pip install -r requirements.txt```
+```bash
+
+pip install -r requirements.txt
+
+```
 
 ## 使用方法
 
-```python MainScript.py```
+```bash
+
+python MainScript.py
+
+```
 
 ## 代码功能
 
