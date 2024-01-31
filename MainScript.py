@@ -17,7 +17,7 @@ def main(json_folder_path, user_mid, user_id, access_token):
         extract_type(json_folder_path)
         check_step_completion('Step 2')
 
-        # Step 3: 使用 MatchAndUpdateIdsDB 匹配并更新 id
+        # Step 3: 使用 match_and_update_ids_db 匹配并更新 id
         match_and_update_ids_db(json_folder_path)
         check_step_completion('Step 3')
 
