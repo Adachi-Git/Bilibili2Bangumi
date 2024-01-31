@@ -35,7 +35,7 @@ python MainScript.py
 
 ## TODO
 
-- [ ] 跳转Web获取用户 Token
+- [ ] 跳转 Web 获取用户 Token
 - [ ] 运行时询问用户是否从 [bangumi/Archive](https://github.com/bangumi/Archive) 获取最新的 bangumi wiki 数据
 - [ ] 从 bilibili 到 bangumi 的双向同步
 
