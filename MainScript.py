@@ -42,8 +42,8 @@ def check_step_completion(step_name):
     print(f"Step {step_name} completed successfully.")
 
 json_folder_path = r"C:\Users\Darling\Desktop\bangumi"
-user_mid = 123456
-user_id = 233333
-access_token = '4fakcNbEAXV3P43OKDFUfGKeFuSm7tcK8wBRxAjd'
+user_mid = 123456   #  bilibili 的 uid
+user_id = 233333    #  bangumi 的 id
+access_token = '*********************************'  #  bangumi 的 token
 
 main(json_folder_path, user_mid, user_id, access_token)
